@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 550" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="heroCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="heroBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="heroEmeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="heroPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="lineFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+    <filter id="heroShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#020617" flood-opacity="0.6" />
+    </filter>
+    <filter id="glowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Glowing Orbs -->
+  <circle cx="160" cy="120" r="140" fill="#3b82f6" fill-opacity="0.12" filter="url(#glowLight)" />
+  <circle cx="500" cy="380" r="150" fill="#10b981" fill-opacity="0.10" filter="url(#glowLight)" />
+  <circle cx="480" cy="140" r="110" fill="#8b5cf6" fill-opacity="0.10" filter="url(#glowLight)" />
+
+  <!-- Main Central Hub Dashboard Window -->
+  <g transform="translate(60, 40)" filter="url(#heroShadow)">
+    <rect width="520" height="380" rx="20" fill="url(#heroCardBg)" stroke="#334155" stroke-width="1.8" />
+    
+    <!-- Window Bar -->
+    <rect width="520" height="46" rx="20" fill="#1e293b" />
+    <rect y="26" width="520" height="20" fill="#1e293b" />
+    <circle cx="28" cy="23" r="5.5" fill="#f87171" />
+    <circle cx="46" cy="23" r="5.5" fill="#fbbf24" />
+    <circle cx="64" cy="23" r="5.5" fill="#34d399" />
+
+    <!-- Center Window Tab Indicator -->
+    <rect x="130" y="11" width="260" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <circle cx="146" cy="23" r="4" fill="#38bdf8" />
+    <text x="160" y="27" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Digital Marketing Growth Engine</text>
+    <rect x="340" y="15" width="42" height="16" rx="8" fill="#10b981" fill-opacity="0.2"/>
+    <text x="361" y="27" text-anchor="middle" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700">LIVE</text>
+
+    <!-- Top KPI Highlights Grid -->
+    <g transform="translate(24, 60)">
+      <!-- KPI 1: Organic Reach -->
+      <rect x="0" y="0" width="145" height="70" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="14" y="22" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">ORGANIC VISIBILITY</text>
+      <text x="14" y="48" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800">+280%</text>
+      <text x="85" y="48" fill="#10b981" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">▲ High</text>
+
+      <!-- KPI 2: High-Intent Leads -->
+      <rect x="160" y="0" width="145" height="70" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="174" y="22" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">QUALIFIED LEADS</text>
+      <text x="174" y="48" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800">1,450+</text>
+      <text x="254" y="48" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">MQL</text>
+
+      <!-- KPI 3: Ad Performance / ROAS -->
+      <rect x="320" y="0" width="150" height="70" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="334" y="22" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">AVERAGE ROAS</text>
+      <text x="334" y="48" fill="#a78bfa" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800">4.5x</text>
+      <text x="390" y="48" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">Targeted</text>
+    </g>
+
+    <!-- Main Dynamic Growth Curve Section -->
+    <g transform="translate(24, 145)">
+      <rect width="470" height="215" rx="14" fill="#0b1329" stroke="#1e293b" stroke-width="1" />
+      
+      <text x="18" y="26" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">Continuous Traffic &amp; Conversion Velocity</text>
+      <text x="18" y="42" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Aggregated Multi-Channel Marketing Trajectory</text>
+
+      <!-- Grid lines -->
+      <line x1="20" y1="75" x2="450" y2="75" stroke="#1e293b" stroke-dasharray="4 4" />
+      <line x1="20" y1="115" x2="450" y2="115" stroke="#1e293b" stroke-dasharray="4 4" />
+      <line x1="20" y1="155" x2="450" y2="155" stroke="#1e293b" stroke-dasharray="4 4" />
+      <line x1="20" y1="190" x2="450" y2="190" stroke="#334155" stroke-width="1.5" />
+
+      <!-- Area Path -->
+      <path d="M 30 185 Q 90 170 140 150 T 250 110 T 360 65 T 440 40 L 440 190 L 30 190 Z" fill="url(#lineFill)" />
+      
+      <!-- Primary Growth Line -->
+      <path d="M 30 185 Q 90 170 140 150 T 250 110 T 360 65 T 440 40" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      
+      <!-- Secondary Comparison Line (Competitor/Standard) -->
+      <path d="M 30 185 C 110 180 200 175 320 160 C 380 155 410 150 440 145" stroke="#64748b" stroke-width="2" stroke-dasharray="4 4" fill="none" opacity="0.6"/>
+
+      <!-- High Point Marker Card with Pulse -->
+      <circle cx="440" cy="40" r="7" fill="#10b981" stroke="#ffffff" stroke-width="2" />
+      <g transform="translate(350, 15)">
+        <rect width="80" height="26" rx="6" fill="#10b981" />
+        <text x="40" y="17" text-anchor="middle" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700">PEAK ROI</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Floating Badge 1 (Top Left Overlap): Strategy Card -->
+  <g transform="translate(20, 190)" filter="url(#heroShadow)">
+    <rect width="170" height="66" rx="14" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" />
+    <circle cx="30" cy="33" r="16" fill="#3b82f6" fill-opacity="0.2" />
+    <!-- Target Bullseye Icon -->
+    <circle cx="30" cy="33" r="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <circle cx="30" cy="33" r="3" fill="#60a5fa"/>
+    <text x="56" y="28" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">SEO Strategy</text>
+    <text x="56" y="44" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">Top 3 Rankings</text>
+  </g>
+
+  <!-- Floating Badge 2 (Bottom Right Overlap): Conversion Card -->
+  <g transform="translate(420, 390)" filter="url(#heroShadow)">
+    <rect width="200" height="74" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+    <circle cx="32" cy="37" r="16" fill="#10b981" fill-opacity="0.2" />
+    <!-- Checkmark Icon -->
+    <path d="M 24 37 L 29 42 L 40 31" stroke="#34d399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="58" y="32" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">Lead Pipeline Active</text>
+    <text x="58" y="48" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Verified Decision Makers</text>
+    <text x="58" y="62" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600">Daily Optimizations</text>
+  </g>
+
+  <!-- Floating Badge 3 (Top Right): Paid Media ROI -->
+  <g transform="translate(460, 10)" filter="url(#heroShadow)">
+    <rect width="160" height="58" rx="12" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5" />
+    <circle cx="28" cy="29" r="14" fill="#8b5cf6" fill-opacity="0.2" />
+    <path d="M 23 34 L 28 24 L 33 34" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="50" y="25" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">Meta &amp; IG Ads</text>
+    <text x="50" y="41" fill="#c084fc" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">Targeted ROAS</text>
+  </g>
+</svg>
