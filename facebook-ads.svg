@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="fbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1e38" />
+    </linearGradient>
+    <linearGradient id="adBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <filter id="adShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="600" height="400" rx="16" fill="url(#fbBg)" />
+  <rect x="1" y="1" width="598" height="398" rx="15" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- Top Campaign Navigation / Status Bar -->
+  <rect x="35" y="30" width="530" height="48" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <circle cx="60" cy="54" r="8" fill="#10b981" />
+  <text x="78" y="58" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Campaign Active: High-Conversion Lead Funnel</text>
+  <rect x="420" y="42" width="130" height="25" rx="12.5" fill="#2563eb" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1"/>
+  <text x="485" y="58" text-anchor="middle" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">ROAS 4.8x Active</text>
+
+  <!-- Left Card: Ad Creative Mockup (Custom original design) -->
+  <g transform="translate(35, 95)" filter="url(#adShadow)">
+    <rect width="250" height="270" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    
+    <!-- Ad Header: Brand profile -->
+    <circle cx="28" cy="28" r="14" fill="#3b82f6" />
+    <path d="M 23 28 L 27 32 L 34 24" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="50" y="24" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">Client Brand Campaign</text>
+    <text x="50" y="38" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="9.5">Sponsored • Targeted Audience</text>
+
+    <!-- Ad Copy Line -->
+    <text x="16" y="60" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="10">Scale your business with high-ROI digital</text>
+    <text x="16" y="74" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="10">advertising strategies tailored to your market.</text>
+
+    <!-- Ad Image Graphic Area -->
+    <rect x="14" y="86" width="222" height="110" rx="8" fill="#0f172a" stroke="#2563eb" stroke-width="1" />
+    <!-- Graphic Elements inside Ad -->
+    <circle cx="125" cy="136" r="32" fill="#2563eb" fill-opacity="0.25" stroke="#3b82f6" stroke-width="1.5"/>
+    <path d="M 105 145 L 120 125 L 132 136 L 148 118" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="30" y="100" width="60" height="18" rx="4" fill="#10b981" />
+    <text x="60" y="112" text-anchor="middle" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700">SPECIAL OFFER</text>
+
+    <!-- CTA Bar inside Ad -->
+    <rect x="14" y="208" width="222" height="48" rx="8" fill="#0f172a" />
+    <text x="26" y="228" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">Accelerate Revenue Growth</text>
+    <text x="26" y="244" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="9">Get Targeted Leads Fast</text>
+    <rect x="160" y="220" width="66" height="24" rx="4" fill="#2563eb" />
+    <text x="193" y="236" text-anchor="middle" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700">Learn More</text>
+  </g>
+
+  <!-- Right Side: Performance Analytics & Audience Targeting -->
+  <g transform="translate(305, 95)">
+    <!-- Audience Targeting Card -->
+    <rect width="260" height="125" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="18" y="24" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">Audience &amp; Demographic Targeting</text>
+
+    <!-- Target Audience Radar / Concentric Rings -->
+    <g transform="translate(42, 70)">
+      <circle cx="0" cy="0" r="32" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3 3" fill="none"/>
+      <circle cx="0" cy="0" r="22" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+      <circle cx="0" cy="0" r="12" fill="#3b82f6" fill-opacity="0.3"/>
+      <circle cx="0" cy="0" r="4" fill="#38bdf8"/>
+    </g>
+
+    <!-- Targeting Tags -->
+    <g transform="translate(90, 42)">
+      <rect x="0" y="0" width="155" height="22" rx="11" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+      <text x="10" y="15" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="9.5">🎯 Intent: In-Market Buyers</text>
+
+      <rect x="0" y="28" width="155" height="22" rx="11" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+      <text x="10" y="43" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="9.5">📍 Geo: Global / High-Tier</text>
+
+      <rect x="0" y="56" width="155" height="22" rx="11" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+      <text x="10" y="71" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="9.5">⚡ Lookalike 1% Active</text>
+    </g>
+
+    <!-- Metrics Row -->
+    <g transform="translate(0, 140)">
+      <rect width="125" height="130" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="14" y="24" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">CTR (Click-Through)</text>
+      <text x="14" y="52" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800">4.92%</text>
+      <text x="14" y="70" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="9.5">Benchmark: 1.8%</text>
+      <rect x="14" y="85" width="97" height="6" rx="3" fill="#0f172a" />
+      <rect x="14" y="85" width="80" height="6" rx="3" fill="#10b981" />
+      <text x="14" y="110" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="9.5">Above Average</text>
+
+      <rect x="135" y="0" width="125" height="130" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="149" y="24" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">Cost Per Lead (CPL)</text>
+      <text x="149" y="52" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800">$1.84</text>
+      <text x="149" y="70" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="9.5">-42% Cost Saved</text>
+      <rect x="149" y="85" width="97" height="6" rx="3" fill="#0f172a" />
+      <rect x="149" y="85" width="70" height="6" rx="3" fill="#3b82f6" />
+      <text x="149" y="110" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="9.5">Optimized Bidding</text>
+    </g>
+  </g>
+</svg>
